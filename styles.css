@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
 /* Global styles */
 body {
   margin: 0;
   padding: 0;
-  background: #9f9179;
-  font-family: 'Georgia', serif;
+  background: #e6ccb2;
+  font-family: "Tagesschrift", system-ui;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   min-height: 100vh;
+  
 }
 
 .gallery-wrapper {
@@ -25,7 +28,7 @@ body {
 h1 {
   font-size: 2.5rem;
   margin-bottom: 30px;
-  color: #5d4037;
+  color: #646160;
 }
 
 /* Gallery Grid */
@@ -69,6 +72,7 @@ h1 {
   max-height: 80%;
   border-radius: 12px;
   box-shadow: 0 0 20px #000;
+  
 }
 
 
